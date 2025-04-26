@@ -1,24 +1,46 @@
-# README
+# Rails and Stimulus Integration Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails + Stimulus + esbuild. Use it for interview or your SaaS application.
 
-Things you may want to cover:
+Ruby 3.2+
 
-* Ruby version
+Rails 8.0.2
 
-* System dependencies
+Tested on Windows WSL and Mac.
 
-* Configuration
+## Unzipping into WSL
 
-* Database creation
+```
+Expand-Archive -Path "C:\Users\konam\Downloads\rails-stimulus-interview-template-main.zip" -DestinationPath "\\wsl$\Ubuntu-22.04\home\rchou\workspace\"
+```
 
-* Database initialization
+## Setup
+```
+bundle install
+yarn install
+rails s
+```
 
-* How to run the test suite
+## Watch mode
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+yarn build --watch
+```
 
-* Deployment instructions
+## Adding a new Stimulus controller
+```
+rails generate stimulus controllerName
+rails stimulus:manifest:update
+```
 
-* ...
+## Tests
+
+```
+rspec
+```
+
+## Rubocop
+
+```
+rubocop --autocorrect-all
+```
