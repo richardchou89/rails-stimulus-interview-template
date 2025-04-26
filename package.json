@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.25.3"
+  },
+  "scripts": {
+    "build": "esbuild --bundle app/javascript/application.js --outdir=app/assets/builds --minify --sourcemap"
+  }
+}
