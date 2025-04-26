@@ -6,5 +6,9 @@
   },
   "scripts": {
     "build": "esbuild --bundle app/javascript/application.js --outdir=app/assets/builds --minify --sourcemap"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo-rails": "^8.0.13"
   }
 }
