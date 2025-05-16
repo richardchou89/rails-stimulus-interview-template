@@ -44,7 +44,11 @@ yarn build --watch
 rails generate stimulus controllerName
 rails stimulus:manifest:update
 ```
-
+For example,
+```
+rails generate stimulus invoice
+rails stimulus:manifest:update
+```
 ## Tests
 
 ```
