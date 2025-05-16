@@ -1,12 +1,24 @@
-# Rails and Stimulus Integration Template
+# Rails and Stimulus Interview Template
 
-Rails + Stimulus + esbuild. Use it for interview or your SaaS application.
+You've landed an interview for a Rails developer role. Just three hours before the big moment, you get an email: you're expected to pair program using a Rails + Stimulus setup.
 
-Ruby 3.2+
+Suddenly, you're scrambling - installing Rails, Stimulus, and all the necessary gems - only to run into integration issues.
 
-Rails 8.0.2
+Skip the stress. This template comes pre-configured with Rails and Stimulus, so you can focus on what really matters: preparing for the interview.
 
-Tested on Windows WSL and Mac.
+Use it in your code challenge, pair programming, or next SaaS idea.
+
+💎 Ruby 3.2+
+
+🛤️ Rails 8.0.2
+
+📜 Stimulus
+
+📦 esbuild + watch mode
+
+👮 Rubocop
+
+💯 RSpec
 
 ## Unzipping into WSL
 
