@@ -10,7 +10,7 @@ Use it in your code challenge, pair programming, or next SaaS idea.
 
 💎 Ruby 3.2+
 
-🛤️ Rails 8.0.2
+🛤️ Rails 8
 
 📜 Stimulus
 
@@ -64,3 +64,8 @@ rubocop --autocorrect-all
 ## Up and running
 
 ![image](https://github.com/user-attachments/assets/891ae2fb-da42-417f-a31d-958c038b596d)
+
+## Deploying to Render
+
+I wrote an [article](https://medium.com/@richardchou/deploying-rails-to-render-eee0ed76475a) to show how to deploy this template to Render.
+
