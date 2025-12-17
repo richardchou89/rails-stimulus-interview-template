@@ -16,6 +16,8 @@ Use it in your code challenge, pair programming, or next SaaS idea.
 
 📦 esbuild + watch mode
 
+🤚 No third-party gem required
+
 👮 Rubocop
 
 💯 RSpec
